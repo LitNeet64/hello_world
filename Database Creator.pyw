@@ -150,9 +150,6 @@ def file_creater(inp):
     #print 'new file created at desktop!'
     return ln
 
-#TENGO QUE CAMBIAR ESTA FUNCION RESPECTO A LA NUEVA, MULTIPROCESSING BIEN IMPLEMENTADO
-#(REVISAR EN TO DO CASO)
-
 def is_inthere(inp):
      flag=False
      r_ls=file_searcher(inp+'.xlsx')
