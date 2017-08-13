@@ -45,7 +45,7 @@ if __name__=="__main__":
  root=Tk()
  root.title('Data Base Handler 2017')
  root.geometry('1550x650')
- root.wm_iconbitmap(dir_ch()+'\\Escritorio\\Database Creator\\Config\\favicon.ico')
+ root.wm_iconbitmap(dir_ch()+'\\Escritorio\\Database Creator\\config\\favicon.ico')
  for i in range(4):
     ls_frames.append((Frame(root)))
  for i in ls_frames:
