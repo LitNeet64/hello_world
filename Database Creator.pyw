@@ -35,7 +35,7 @@ if __name__=="__main__":
 #HERE WE INITIALIZE FRAMES AND THE MAIN WINDOW.
  def dir_ch():
     blkls=['Administrador','Publico','Public','defaultuser0','Usuario Publico','All Users','Default'
-    ,'Default User']
+    ,'Default User','desktop.ini']
     for i in os.listdir('C:\\Usuarios'):
         if i not in blkls:
             link='C:\\Usuarios\\'+str(i)
